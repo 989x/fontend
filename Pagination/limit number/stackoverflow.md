@@ -13,8 +13,8 @@ handleClick(event) {
 }
 
 // section 2
- const pageNumbers = 10;
- ShowPaginationNumbers(pageNumbers) {
+const pageNumbers = 10;
+ShowPaginationNumbers(pageNumbers) {
 
     let paginationNumbers = [];
 
@@ -40,6 +40,23 @@ handleClick(event) {
             paginationNumbers.push(i);
         }
         return this.ShowRenderPageNumbers(paginationNumbers); 
+    }
+}
+
+// section 3
+ShowRenderPageNumbers(paginationNumbers) {
+    if (paginationNumbers) {
+        let result = paginationNumbers.map(number => {
+            return (
+                <li className="page-item" >
+                    <a className={(this.state.currentPage === number ? ' active' : '') + ' page-link'} key={number} id={number} onClick={this.handleClick}>{number}</a>
+                </li>
+            );
+        });
+        return result;
+    }
+}
+
 ```
 
 ---
