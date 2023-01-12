@@ -1,3 +1,6 @@
+### React Pagination
+- Live: https://olegsuncrown.github.io/react-pagination/
+
 ## same same
 ### js ua/React Pagination
 - youtube: https://www.youtube.com/watch?v=1-Oi3F6Mi9s
