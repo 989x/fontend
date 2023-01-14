@@ -51,6 +51,8 @@ export default function Layout({ title, children }) {
             <Link href="/">
               <a className="text-lg font-bold">amazona</a>
             </Link>
+            {/* ____________________ search ____________________ */}
+            
             <form
               onSubmit={submitHandler}
               className="mx-auto  hidden w-full justify-center md:flex"
@@ -69,6 +71,8 @@ export default function Layout({ title, children }) {
                 <SearchIcon className="h-5 w-5"></SearchIcon>
               </button>
             </form>
+
+            {/* ____________________ end search ____________________ */}
             <div>
               <Link href="/cart">
                 <a className="p-2">

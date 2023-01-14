@@ -7,6 +7,11 @@ Next.js Search Filter Tutorial For Beginners
 - youtube: https://www.youtube.com/watch?v=ZFYj7OrTeEs
 - github: https://github.com/basir/next-tailwind-amazona
 
+### Eazy2Code
+
+- youtube: https://www.youtube.com/watch?v=07ooCSWIfa4
+- github: https://github.com/Eazy2Code/Search-Filter-React/blob/master/src/App.js
+
 ### scalablescripts
 demo: https://scalablescripts.com/courses?query=mongo
 
