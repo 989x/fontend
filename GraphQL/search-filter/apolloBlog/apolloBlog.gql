@@ -1,0 +1,33 @@
+# Filtering for a specific item
+
+# Consider the following GraphQL schema:
+
+type Query {
+  album(id: ID!): Album
+  albums(genre: Genre): [Album]! # New
+}
+
+query GetAlbumById {
+  album (id: "1") {
+    title
+    genre
+    artist {
+      name
+    }
+  }
+}
+
+# Filtering down a list
+
+# Now consider our GraphQL schema had an additional field on the root Query type to query 
+# for a list of albums:
+
+query GetRockAlbums {
+  albums (genre: "Rock") {
+    title
+    genre
+    artist {
+      name
+    }
+  }
+}
