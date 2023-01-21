@@ -5,6 +5,10 @@
 - youtube: https://www.youtube.com/watch?v=07ooCSWIfa4
 - github: https://github.com/Eazy2Code/Search-Filter-React/blob/master/src/App.js
 
+### machadop1407
+
+- github: https://github.com/machadop1407/React-Search-Bar/blob/main/search-bar-code/src/Components/SearchBar.js
+
 ### scalablescripts
 demo: https://scalablescripts.com/courses?query=mongo
 
