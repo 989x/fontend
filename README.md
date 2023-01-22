@@ -8,7 +8,8 @@
 
 ### 目录
 - [**GraphQL**](https://github.com/SinsamutQ/fontend/tree/main/GraphQL)
-    - a
+    - case1
+    - ChatGPT
 - [**Js**](https://github.com/SinsamutQ/fontend/tree/main/Js)
     - property-length.md
     - limit-loop.md
