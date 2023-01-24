@@ -1,3 +1,34 @@
+### problem , { where: { name: Like(`%${name}%`) } }
+1. Like in function cannot be used in conjunction with the mocking api. </br>
+2. The format of the function is unclear.
+
+Using the find() method </br>
+This example selects all blog posts whose titles contain the word: ‘kindacode.com’.
+- kindacode: https://www.kindacode.com/snippet/typeorm-using-like-operator/
+
+```js
+import { Like } from 'typeorm';
+
+/*...*/
+const postRepository = myDataSource.getRepository(Post);
+const posts = await postRepository.find({
+      where: { title: Like('%kindacode.com%') },
+});
+
+console.log(posts);
+```
+
+How to perform a like query TypeORM
+- stackoverflow: https://stackoverflow.com/questions/47814537/how-to-perform-a-like-query-typeorm
+```js
+ var data = await getRepository(User)
+                  .createQueryBuilder("user")
+                  .where("user.firstName like :name", { name:`%${firstName}%` })
+                  .getMany();
+```
+
+
+
 ### create api can get database by using `/api/products?name=${query}` with graphql query and resolver use typescript
 
 Here's an example of how you could create an API endpoint using GraphQL and TypeScript to fetch products from a database based on a search query:
@@ -67,6 +98,7 @@ createConnection().then(async (connection) => {
   console.log(`Server is running, GraphQL Playground available at ${url}`);
 });
 ```
+
 In this example, I am using typeorm to connect to the database and fetch data based on the name parameter passed in the query, you can use any ORM or querybuilder that you prefer.
 
 This is just one example of how you could set up a GraphQL API with TypeScript to fetch products from a database based on a search query. You should adjust the code to fit your specific needs and the structure of your application.
