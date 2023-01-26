@@ -41,4 +41,5 @@
     - abacaj
     - nextJS
 - [**Tanstack**](https://github.com/SinsamutQ/fontend/tree/main/Tanstack)
-    - setdata
+    - setData
+    - useQuery
