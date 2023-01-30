@@ -3,8 +3,6 @@
 </p>
 
 ### 开发商
-- [**Search-dev**](https://github.com/SinsamutQ/fontend/tree/main/Search-dev)
-    - case1
 - [**ChatGPT**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT)
     - graphql
     - mongodb
