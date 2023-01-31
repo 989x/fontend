@@ -35,7 +35,7 @@
     - basir
     - scalablescripts
     - WebDevWithArtisan
-- [**Search-param**](https://github.com/SinsamutQ/fontend/tree/main/Search-param)
+- [**Search-query**](https://github.com/SinsamutQ/fontend/tree/main/Search-query)
     - abacaj
     - nextJS
 - [**Tanstack**](https://github.com/SinsamutQ/fontend/tree/main/Tanstack)
