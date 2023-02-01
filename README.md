@@ -4,14 +4,15 @@
 
 ### 开发商
 - [**ChatGPT**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT)
-    - graphql
+    - graphql-inputs
+    - graphql-like
     - mongodb
     - route
 
 ### 目录
 - [**GraphQL**](https://github.com/SinsamutQ/fontend/tree/main/GraphQL)
-    - case1
-    - ChatGPT
+    - filter-fields-mongodb
+    - search-filter
 - [**Js**](https://github.com/SinsamutQ/fontend/tree/main/Js)
     - property-length.md
     - limit-loop.md
