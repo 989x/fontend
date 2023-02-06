@@ -3,11 +3,15 @@
 </p>
 
 ### 开发商
-- [**ChatGPT**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT)
+- [**chatGPT-api**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-api)
     - graphql-inputs
     - graphql-like
     - mongodb
     - route
+- [**chatGPT-seo**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-seo)
+    - blog
+    - nextJS
+    - searching
 
 ### 目录
 - [**GraphQL**](https://github.com/SinsamutQ/fontend/tree/main/GraphQL)
