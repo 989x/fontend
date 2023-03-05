@@ -3,7 +3,7 @@
 </p>
 
 ### 开发商
-- [**chatGPT-api**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-api)
+- [**chatGPT-Graph-api**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-Graph-api)
     - graphql-inputs
     - graphql-like
     - mongodb
@@ -14,6 +14,8 @@
     - searching
 
 ### 目录
+- [**ChatGPT-Tailwind**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-Tailwind)
+    - readme
 - [**GraphQL**](https://github.com/SinsamutQ/fontend/tree/main/GraphQL)
     - filter-fields-mongodb
     - search-filter
@@ -43,7 +45,7 @@
 - [**Search-query**](https://github.com/SinsamutQ/fontend/tree/main/Search-query)
     - abacaj
     - nextJS
-- [**sliderContainer+GPT**](https://github.com/SinsamutQ/fontend/tree/main/sliderContainer+GPT)
+- [**sliderContainer+ChatGPT**](https://github.com/SinsamutQ/fontend/tree/main/sliderContainer+ChatGPT)
     - fromChatGPT
     - staterCode
 - [**Tanstack**](https://github.com/SinsamutQ/fontend/tree/main/Tanstack)
