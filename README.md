@@ -19,6 +19,9 @@
     - lower-left-position-img
     - modal-css-example
     - modal-tailwindcss
+- [**ChatGPT-NextJS-Get**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-NextJS-Get)
+    - getServerSideProps
+    - getStatic
 - [**ChatGPT-Tailwind**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-Tailwind)
     - readme
 - [**GraphQL**](https://github.com/SinsamutQ/fontend/tree/main/GraphQL)
