@@ -3,17 +3,17 @@
 </p>
 
 ### 开发商
-- [**chatGPT-Graph-api**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-Graph-api)
-    - graphql-inputs
-    - graphql-like
-    - mongodb
-    - route
 - [**chatGPT-seo**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-seo)
     - blog
     - nextJS
     - searching
 
 ### 目录
+- [**chatGPT-Graph-api**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-Graph-api)
+    - graphql-inputs
+    - graphql-like
+    - mongodb
+    - route
 - [**ChatGPT-modal-img**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-modal-img)
     - convert
     - lower-left-position-img
@@ -22,6 +22,8 @@
 - [**ChatGPT-NextJS-Get**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-NextJS-Get)
     - getServerSideProps
     - getStatic
+- [**ChatGPT-pagination**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-pagination)
+    - a
 - [**ChatGPT-Tailwind**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-Tailwind)
     - readme
 - [**GraphQL**](https://github.com/SinsamutQ/fontend/tree/main/GraphQL)
