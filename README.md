@@ -23,7 +23,8 @@
     - getServerSideProps
     - getStatic
 - [**ChatGPT-pagination**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-pagination)
-    - a
+    - version-1
+    - version-2
 - [**ChatGPT-Tailwind**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-Tailwind)
     - readme
 - [**GraphQL**](https://github.com/SinsamutQ/fontend/tree/main/GraphQL)
