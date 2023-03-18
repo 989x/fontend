@@ -46,9 +46,10 @@
 - [**Pagination**](https://github.com/SinsamutQ/fontend/tree/main/Pagination)
     - herdoycode
     - Traversy Media
-- [**Pagination**](https://github.com/SinsamutQ/fontend/tree/main/Pagination)
+- [**Pagination-limit**](https://github.com/SinsamutQ/fontend/tree/main/Pagination-limit)
     - mayankshubham
     - OlegSuncrown
+    - success-(no-update)
 - [**Search**](https://github.com/SinsamutQ/fontend/tree/main/Search)
     - basir
     - scalablescripts

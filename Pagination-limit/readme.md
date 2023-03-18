@@ -6,3 +6,4 @@ How to Build a Custom Pagination Component in React
 - github: https://github.com/mayankshubham/react-pagination/tree/master/src/examples
 
 ### OlegSuncrown
+- github: https://github.com/OlegSuncrown/react-pagination
