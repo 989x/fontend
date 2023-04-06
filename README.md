@@ -60,6 +60,7 @@
 - [**sliderContainer+ChatGPT**](https://github.com/SinsamutQ/fontend/tree/main/sliderContainer+ChatGPT)
     - fromChatGPT
     - staterCode
+    - successCode
 - [**Tanstack**](https://github.com/SinsamutQ/fontend/tree/main/Tanstack)
     - setData
     - useQuery
