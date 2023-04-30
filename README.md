@@ -25,8 +25,13 @@
 - [**ChatGPT-pagination**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-pagination)
     - version-1
     - version-2
+- [**ChatGPT-shuffled**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-shuffled)
+    - readme
 - [**ChatGPT-Tailwind**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-Tailwind)
     - readme
+
+</br> another </br>
+
 - [**GraphQL**](https://github.com/SinsamutQ/fontend/tree/main/GraphQL)
     - filter-fields-mongodb
     - search-filter
