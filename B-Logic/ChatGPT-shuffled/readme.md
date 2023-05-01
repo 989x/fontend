@@ -104,7 +104,6 @@ By using `setInterval`, we are effectively slowing down the randomness by settin
 
 
 
-
 ### 🙎🏻‍♂️ 💬 
 
 Now there is a problem after page refresh. The banner will not appear. You must wait for the specified shuffleDelay for the banner to appear.

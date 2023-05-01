@@ -1,71 +1,54 @@
 <p align="center">
-    - use for learning only -
+    _________________________ 學習編碼 _________________________
 </p>
 
-### 开发商
-- [**chatGPT-seo**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-seo)
-    - blog
-    - nextJS
-    - searching
+### _________________________ 目录 - 分組 _________________________
 
-### 目录
-- [**chatGPT-Graph-api**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-Graph-api)
-    - graphql-inputs
-    - graphql-like
-    - mongodb
-    - route
-- [**ChatGPT-modal-img**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-modal-img)
-    - convert
-    - lower-left-position-img
-    - modal-css-example
-    - modal-tailwindcss
-- [**ChatGPT-NextJS-Get**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-NextJS-Get)
-    - getServerSideProps
-    - getStatic
-- [**ChatGPT-pagination**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-pagination)
-    - version-1
-    - version-2
-- [**ChatGPT-shuffled**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-shuffled)
-    - readme
+- [**B-Logic**](https://github.com/SinsamutQ/fontend/tree/main/B-Logic)
+    - ChatGPT-shuffled
+    - Js
+        - limit-loop.md
+        - property-length.md
+- [**B-Search**](https://github.com/SinsamutQ/fontend/tree/main/B-Search)
+    - Search
+    - Search-query
+- [**C-GraphQL**](https://github.com/SinsamutQ/fontend/tree/main/C-GraphQL)
+    - ChatGPT-Graph-api
+        - graphql-inputs
+        - graphql-like
+        - mongodb
+        - route
+    - GraphQL
+        - filter-fields-mongodb
+        - search-filter
+    - NextJS-apollo-server
+    - Tanstack
+- [**C-Modal**](https://github.com/SinsamutQ/fontend/tree/main/C-Modal)
+    - ChatGPT-modal-img
+        - convert
+        - lower-left-position-img
+        - modal-css-example
+        - modal-tailwind
+    - Modal
+- [**C-Pagination**](https://github.com/SinsamutQ/fontend/tree/main/C-Pagination)
+    - ChatGPT-pagination
+        - version-1
+        - version-2
+    - Pagination
+    - Pagination-limit
+- [**C-NextJS**](https://github.com/SinsamutQ/fontend/tree/main/C-NextJS)
+    - ChatGPT-NextJS-Get
+        - getServerSideProps
+        - getStatic
+    - NextJS
+        - CodeMirror
+        - Hydration
+
+### _________________________ 目录 - 般的 _________________________
+
 - [**ChatGPT-Tailwind**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-Tailwind)
-    - readme
-
-</br> another </br>
-
-- [**GraphQL**](https://github.com/SinsamutQ/fontend/tree/main/GraphQL)
-    - filter-fields-mongodb
-    - search-filter
-- [**Js**](https://github.com/SinsamutQ/fontend/tree/main/Js)
-    - property-length.md
-    - limit-loop.md
-- [**Lightbox2**](https://github.com/SinsamutQ/fontend/tree/main/Lightbox2)
-    - dowload.md
-    - fix-lightbox2.md
-- [**Modal**](https://github.com/SinsamutQ/fontend/tree/main/modal)
-    - ModalGallery.md
-    - ModalPopup.md
-- [**NextJS**](https://github.com/SinsamutQ/fontend/tree/main/NextJS)
-    - apollo-server
-    - CodeMirror
-    - Hydration
-- [**Pagination**](https://github.com/SinsamutQ/fontend/tree/main/Pagination)
-    - herdoycode
-    - Traversy Media
-- [**Pagination-limit**](https://github.com/SinsamutQ/fontend/tree/main/Pagination-limit)
-    - mayankshubham
-    - OlegSuncrown
-    - success-(no-update)
-- [**Search**](https://github.com/SinsamutQ/fontend/tree/main/Search)
-    - basir
-    - scalablescripts
-    - WebDevWithArtisan
-- [**Search-query**](https://github.com/SinsamutQ/fontend/tree/main/Search-query)
-    - abacaj
-    - nextJS
+    - reamdme.md
 - [**sliderContainer+ChatGPT**](https://github.com/SinsamutQ/fontend/tree/main/sliderContainer+ChatGPT)
     - fromChatGPT
-    - staterCode
+    - starterCode
     - successCode
-- [**Tanstack**](https://github.com/SinsamutQ/fontend/tree/main/Tanstack)
-    - setData
-    - useQuery

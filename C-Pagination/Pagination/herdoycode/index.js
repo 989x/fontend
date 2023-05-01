@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import Pagination from "../components/Pagination";
-import { paginate } from "./../utils/paginate";
+import { paginate } from "../utils/paginate";
 
 const Home = () => {
   const [posts, setPosts] = useState([]);
