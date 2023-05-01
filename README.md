@@ -6,6 +6,7 @@
 
 - [**B-Logic**](https://github.com/SinsamutQ/fontend/tree/main/B-Logic)
     - ChatGPT-shuffled
+    - formatDate
     - Js
         - limit-loop.md
         - property-length.md
