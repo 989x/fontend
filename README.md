@@ -50,8 +50,9 @@
 
 ### _________________________ 目录 - 般的 _________________________
 
-- [**ChatGPT-Tailwind**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-Tailwind)
-    - reamdme.md
+- [**Tailwind+ChatGPT**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-Tailwind)
+    - pnpm-install.md
+    - set-height.md
 - [**sliderContainer+ChatGPT**](https://github.com/SinsamutQ/fontend/tree/main/sliderContainer+ChatGPT)
     - fromChatGPT
     - starterCode
