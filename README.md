@@ -14,8 +14,8 @@
 - [**B-NextAuth**](https://github.com/SinsamutQ/fontend/tree/main/B-NextAuth)
     - google-auth
 - [**B-Search**](https://github.com/SinsamutQ/fontend/tree/main/B-Search)
-    - Search
-    - Search-query
+    - NextGPT
+    - Tutorial
 - [**C-GraphQL**](https://github.com/SinsamutQ/fontend/tree/main/C-GraphQL)
     - ChatGPT-Graph-api
         - graphql-inputs
@@ -34,12 +34,6 @@
         - modal-css-example
         - modal-tailwind
     - Modal
-- [**C-Pagination**](https://github.com/SinsamutQ/fontend/tree/main/C-Pagination)
-    - ChatGPT-pagination
-        - version-1
-        - version-2
-    - Pagination
-    - Pagination-limit
 - [**C-NextJS**](https://github.com/SinsamutQ/fontend/tree/main/C-NextJS)
     - ChatGPT-NextJS-Get
         - getServerSideProps
@@ -47,13 +41,16 @@
     - NextJS
         - CodeMirror
         - Hydration
+- [**C-Pagination**](https://github.com/SinsamutQ/fontend/tree/main/C-Pagination)
+    - ChatGPT-pagination
+        - version-1
+        - version-2
+    - Pagination
+    - Pagination-limit
 
 ### _________________________ 目录 - 般的 _________________________
 
-- [**Tailwind+ChatGPT**](https://github.com/SinsamutQ/fontend/tree/main/ChatGPT-Tailwind)
-    - pnpm-install.md
-    - set-height.md
-- [**sliderContainer+ChatGPT**](https://github.com/SinsamutQ/fontend/tree/main/sliderContainer+ChatGPT)
-    - fromChatGPT
-    - starterCode
-    - successCode
+- [**D-More**](https://github.com/SinsamutQ/fontend/tree/main/D-More)
+    - Lightbox2
+    - SliderContainer+ChatGPT
+    - Tailwind+ChatGPT
