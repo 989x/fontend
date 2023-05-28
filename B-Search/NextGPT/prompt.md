@@ -1,15 +1,16 @@
-what to do when
+### Ask 1.1
 
-propertySearch=' ' or propertyType=' ' or propertyStatus=' ' 
+To handle the case where the propertySearch, propertyType, or propertyStatus is empty and hide them in the URL, 
+how to modify the code
 
-is empty will be hidden in nextJS
+### Ask 1.2
+
+what to do when propertySearch=' ' or propertyType=' ' or propertyStatus=' ' is empty will be hidden in nextJS
 
 such as
-
 http://localhost:3000/properties?propertySearch=&propertyType=&propertyStatus=Sale
 
 must be value
-
 http://localhost:3000/properties
 
 ```tsx
@@ -127,6 +128,8 @@ const SearchEstatePage = () => {
 
 export default SearchEstatePage;
 ```
+
+### Ask 2
 
 update this 
 
