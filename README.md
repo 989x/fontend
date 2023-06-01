@@ -41,12 +41,11 @@
     - NextJS
         - CodeMirror
         - Hydration
-- [**C-Pagination**](https://github.com/SinsamutQ/fontend/tree/main/C-Pagination)
-    - ChatGPT-pagination
-        - version-1
-        - version-2
+- [**C-Tailwindcss**](https://github.com/SinsamutQ/fontend/tree/main/C-Tailwindcss)
     - Pagination
-    - Pagination-limit
+    - SliderContainer+ChatGPT
+    - Sticky
+    - Tailwind+ChatGPT
 
 ### _________________________ 目录 - 般的 _________________________
 
