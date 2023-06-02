@@ -16,7 +16,20 @@
 - [**B-Search**](https://github.com/SinsamutQ/fontend/tree/main/B-Search)
     - NextGPT
     - Tutorial
-- [**C-GraphQL**](https://github.com/SinsamutQ/fontend/tree/main/C-GraphQL)
+- [**C-NextJS**](https://github.com/SinsamutQ/fontend/tree/main/C-NextJS)
+    - ChatGPT-NextJS-Get
+        - getServerSideProps
+        - getStatic
+    - NextJS
+        - CodeMirror
+        - Hydration
+- [**C-Tailwind+css**](https://github.com/SinsamutQ/fontend/tree/main/C-Tailwind+css)
+    - Modal-img
+    - Pagination
+    - SliderContainer+ChatGPT
+    - Sticky
+    - Tailwind+ChatGPT
+- [**D-GraphQL**](https://github.com/SinsamutQ/fontend/tree/main/D-GraphQL)
     - ChatGPT-Graph-api
         - graphql-inputs
         - graphql-like
@@ -27,25 +40,6 @@
         - search-filter
     - NextJS-apollo-server
     - Tanstack
-- [**C-Modal**](https://github.com/SinsamutQ/fontend/tree/main/C-Modal)
-    - ChatGPT-modal-img
-        - convert
-        - lower-left-position-img
-        - modal-css-example
-        - modal-tailwind
-    - Modal
-- [**C-NextJS**](https://github.com/SinsamutQ/fontend/tree/main/C-NextJS)
-    - ChatGPT-NextJS-Get
-        - getServerSideProps
-        - getStatic
-    - NextJS
-        - CodeMirror
-        - Hydration
-- [**C-Tailwindcss**](https://github.com/SinsamutQ/fontend/tree/main/C-Tailwindcss)
-    - Pagination
-    - SliderContainer+ChatGPT
-    - Sticky
-    - Tailwind+ChatGPT
 
 ### _________________________ 目录 - 般的 _________________________
 
