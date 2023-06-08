@@ -17,9 +17,8 @@
     - NextGPT
     - Tutorial
 - [**C-NextJS**](https://github.com/SinsamutQ/fontend/tree/main/C-NextJS)
-    - ChatGPT-NextJS-Router
-        - index.ts
-    - ChatGPT-NextJS-Get
+    - NextGPT-Router-Refresh
+    - NextGPT-Get
         - getServerSideProps
         - getStatic
     - NextJS

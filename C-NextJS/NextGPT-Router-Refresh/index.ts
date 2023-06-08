@@ -8,7 +8,8 @@ export default function IndexPage() {
   useEffect(() => {
     const handleRouteChange = (url: string) => {
       // Check if the route contains the dynamic estateId parameter
-      if (url.includes('/properties/')) {
+      // Original: http://localhost:3000/property/999999-3u95-461s
+      if (url.includes('/property/')) {
         // Refresh the page by reloading the current URL
         window.location.reload();
       }
