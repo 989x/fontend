@@ -25,6 +25,7 @@
         - CodeMirror
         - Hydration
         - Image-Tag
+        - Quality-Image
 - [**C-Tailwind+css**](https://github.com/SinsamutQ/fontend/tree/main/C-Tailwind+css)
     - Modal-img
     - Pagination
