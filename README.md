@@ -12,7 +12,8 @@
         - limit-loop.md
         - property-length.md
 - [**B-NextAuth**](https://github.com/SinsamutQ/fontend/tree/main/B-NextAuth)
-    - google-auth
+    - example
+    - product
 - [**B-Search**](https://github.com/SinsamutQ/fontend/tree/main/B-Search)
     - NextGPT
     - Tutorial
