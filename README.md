@@ -14,6 +14,7 @@
 - [**B-NextAuth**](https://github.com/SinsamutQ/fontend/tree/main/B-NextAuth)
     - example
     - product
+    - solve
 - [**B-Search**](https://github.com/SinsamutQ/fontend/tree/main/B-Search)
     - NextGPT
     - Tutorial
