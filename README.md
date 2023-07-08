@@ -19,6 +19,7 @@
     - NextGPT
     - Tutorial
 - [**C-NextJS**](https://github.com/SinsamutQ/fontend/tree/main/C-NextJS)
+    - NextAuth
     - NextGPT-Router-Refresh
     - NextGPT-Get
         - getServerSideProps
