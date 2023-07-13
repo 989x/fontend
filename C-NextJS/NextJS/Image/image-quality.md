@@ -7,7 +7,7 @@ If you want to opt out of it:
 
 1. You can selectively use the unoptimized prop:
 
-```js
+```jsx
  <Image
     className="text-center"
     src={url}
@@ -17,11 +17,12 @@ If you want to opt out of it:
 unoptimized
   />
 ```
+
 or,
 
 2. Using the unoptimized option in next.config.js:
 
-```js
+```jsx
 module.exports = {
   images: {
     unoptimized: true,

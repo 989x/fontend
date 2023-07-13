@@ -2,7 +2,8 @@
 - https://stackoverflow.com/questions/69230343/nextjs-image-component-with-fixed-witdth-and-auto-height
 
 From Next.js 13, the `next/image` component allows styling the underlying image directly using `style/className`. This means you can apply `width: 100%` and `height: auto` on the Image component directly.
-```js
+
+```jsx
 import Image from 'next/image';
 
 <Image
@@ -15,7 +16,8 @@ import Image from 'next/image';
 ```
 
 Or, if using Tailwind CSS.
-```js
+
+```jsx
 import Image from 'next/image';
 
 <Image
@@ -28,7 +30,8 @@ import Image from 'next/image';
 ```
 
 Before Next.js 13, the above feature is only available through `next/future/image`, and from version 12.2, `next/future/image` was still experimental and can be enabled in `next.config.js` under the `experimental` flag.
-```
+
+```jsx
 module.exports = {
     experimental: {
         images: {
