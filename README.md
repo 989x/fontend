@@ -16,7 +16,7 @@
 - [**B-NextAuth**](https://github.com/SinsamutQ/fontend/tree/main/B-NextAuth)
     - axios
     - example
-    - product
+    - middleware
     - solve
 - [**B-Search**](https://github.com/SinsamutQ/fontend/tree/main/B-Search)
     - NextGPT
