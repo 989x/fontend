@@ -6,13 +6,14 @@
 
 - [**A-Secuing**](https://github.com/SinsamutQ/fontend/tree/main/A-Secuing)
     - ...
-- [**B-Logic**](https://github.com/SinsamutQ/fontend/tree/main/B-Logic)
+- [**B-Lib**](https://github.com/SinsamutQ/fontend/tree/main/B-Lib)
     - ChatGPT-shuffled
     - dropdownMenu
     - formatDate
-    - Js
+    - js
         - limit-loop.md
         - property-length.md
+    - readingTime
 - [**B-NextAuth**](https://github.com/SinsamutQ/fontend/tree/main/B-NextAuth)
     - axios
     - example
