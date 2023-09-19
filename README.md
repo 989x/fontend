@@ -7,13 +7,11 @@
 - [**A-Secuing**](https://github.com/SinsamutQ/fontend/tree/main/A-Secuing)
     - ...
 - [**B-Lib**](https://github.com/SinsamutQ/fontend/tree/main/B-Lib)
-    - ChatGPT-shuffled
     - dropdownMenu
     - formatDate
     - js
-        - limit-loop.md
-        - property-length.md
     - readingTime
+    - shuffled
 - [**B-NextAuth**](https://github.com/SinsamutQ/fontend/tree/main/B-NextAuth)
     - axios
     - example
