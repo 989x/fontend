@@ -21,14 +21,10 @@
     - NextGPT
     - Tutorial
 - [**C-NextJS**](https://github.com/SinsamutQ/fontend/tree/main/C-NextJS)
-    - router-refresh
     - get
-        - getServerSideProps
-        - getStatic
-    - another
-        - CodeMirror
-        - Hydration
-        - Image
+    - image
+    - router-refresh
+    - solve
     - syntax
 - [**C-Tailwind+css**](https://github.com/SinsamutQ/fontend/tree/main/C-Tailwind+css)
     - Modal-img

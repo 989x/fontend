@@ -56,12 +56,88 @@ function App() {
 
 Remember that when you export a component using `export default`, you can import it using any name you want when you import it in other files. However, when you export it using `export function` or `export const`, you must use the exact name specified during export when you import it.
 
+
+
 </br>
+
+
 
 ## Ask
 
-I still don't understand much. Ask for an example that shows a clearer picture. Requesting a code is even better.
+I still don't understand much,
+Ask for an example that shows a clearer picture,
+Requesting a code is even better.
 
 ## ChatGPT
 
-...
+Certainly! Let's provide you with a concrete example to illustrate the difference between exporting a component using `export const` and `export function` in Next.js.
+
+### Example 1: Exporting a component using export const
+
+```jsx
+// components/ConstExamplePage.js
+
+const ConstExamplePage = () => {
+  return <div>This is an example page exported with 'export const'.</div>;
+};
+
+export default ConstExamplePage;
+```
+
+In this example, we've defined a functional component named `ConstExamplePage` using a constant variable and then exported it using `export default`.
+
+Now, let's import and use it in another file:
+
+```jsx
+// pages/index.js
+
+import ConstExamplePage from '../components/ConstExamplePage';
+
+function Home() {
+  return (
+    <div>
+      <h1>Welcome to the Home Page</h1>
+      <ConstExamplePage />
+    </div>
+  );
+}
+
+export default Home;
+```
+
+Here, we import the `ConstExamplePage` component and use it in the `Home` page.
+
+### Example 2: Exporting a component using export function
+
+```jsx
+// components/FunctionExamplePage.js
+
+export function FunctionExamplePage() {
+  return <div>This is an example page exported with 'export function'.</div>;
+}
+```
+
+In this example, we've defined a functional component named `FunctionExamplePage` using a named function and then exported it using `export function`.
+
+Now, let's import and use it in another file:
+
+```jsx
+// pages/about.js
+
+import { FunctionExamplePage } from '../components/FunctionExamplePage';
+
+function About() {
+  return (
+    <div>
+      <h1>About Us</h1>
+      <FunctionExamplePage />
+    </div>
+  );
+}
+
+export default About;
+```
+
+Here, we import the `FunctionExamplePage` component using its exact name and use it in the `About` page.
+
+In both examples, we export a React component, and you can use these components in your Next.js pages just like any other React component. The primary difference is in how the components are defined and exported, either using `export const` or `export function`. The choice between them often comes down to coding style and preference.
