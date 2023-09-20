@@ -21,15 +21,15 @@
     - NextGPT
     - Tutorial
 - [**C-NextJS**](https://github.com/SinsamutQ/fontend/tree/main/C-NextJS)
-    - NextAuth
-    - NextGPT-Router-Refresh
-    - NextGPT-Get
+    - router-refresh
+    - get
         - getServerSideProps
         - getStatic
-    - NextJS
+    - another
         - CodeMirror
         - Hydration
         - Image
+    - syntax
 - [**C-Tailwind+css**](https://github.com/SinsamutQ/fontend/tree/main/C-Tailwind+css)
     - Modal-img
     - Pagination
