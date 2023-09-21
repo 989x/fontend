@@ -8,6 +8,7 @@
     - ...
 - [**B-Lib**](https://github.com/SinsamutQ/fontend/tree/main/B-Lib)
     - dropdownMenu
+    - fetcher
     - formatDate
     - js
     - readingTime
