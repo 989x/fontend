@@ -7,10 +7,10 @@
 - [**A-Secuing**](https://github.com/SinsamutQ/fontend/tree/main/A-Secuing)
     - ...
 - [**B-Lib**](https://github.com/SinsamutQ/fontend/tree/main/B-Lib)
+    - breadcrumbs
     - dropdownMenu
     - fetcher
     - formatDate
-    - js
     - readingTime
     - shuffled
 - [**B-NextAuth**](https://github.com/SinsamutQ/fontend/tree/main/B-NextAuth)
@@ -48,6 +48,5 @@
 ### _________________________ 目录 - 般的 _________________________
 
 - [**D-More**](https://github.com/SinsamutQ/fontend/tree/main/D-More)
+    - function
     - Lightbox2
-    - SliderContainer+ChatGPT
-    - Tailwind+ChatGPT
