@@ -71,7 +71,7 @@ const CardProperty = ({ data, userData }: any) => {
 
 </br>
 
-## ASk
+## Ask
 
 lib/propertyMappings.ts
 
