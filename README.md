@@ -27,12 +27,12 @@
     - router-refresh
     - solve
     - syntax
-- [**C-Tailwind+css**](https://github.com/SinsamutQ/fontend/tree/main/C-Tailwind+css)
-    - Modal-img
-    - Pagination
-    - SliderContainer+ChatGPT
-    - Sticky
-    - Tailwind+ChatGPT
+- [**C-Tailwindcss**](https://github.com/SinsamutQ/fontend/tree/main/C-Tailwind+css)
+    - modal-img
+    - pagination
+    - sliderContainer
+    - sticky
+    - tailwind
 - [**D-GraphQL**](https://github.com/SinsamutQ/fontend/tree/main/D-GraphQL)
     - ChatGPT-Graph-api
         - graphql-inputs
