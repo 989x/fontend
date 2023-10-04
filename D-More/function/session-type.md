@@ -46,8 +46,6 @@ In this code, we import the `supportedTypes` array from `lib/propertyMappings.ts
 
 
 
-</br>
-
 ## Easier way
 
 ```js
@@ -68,8 +66,6 @@ const CardProperty = ({ data, userData }: any) => {
 ```
 
 
-
-</br>
 
 ## Ask
 

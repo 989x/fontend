@@ -14,7 +14,7 @@ Why This Error Occurred
 
 During Pre-rendering (SSR or SSG) you tried to access a router method `push`, `replace`, `back`, which is not supported.
 
-</br>
+
 
 ### How to fix
 

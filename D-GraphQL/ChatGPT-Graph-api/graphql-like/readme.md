@@ -1,8 +1,8 @@
 ### problem , { where: { name: Like(`%${name}%`) } }
-1. Like in function cannot be used in conjunction with the mocking api. </br>
+1. Like in function cannot be used in conjunction with the mocking api. <br />
 2. The format of the function is unclear.
 
-Using the find() method </br>
+Using the find() method <br />
 This example selects all blog posts whose titles contain the word: ‘kindacode.com’.
 - kindacode: https://www.kindacode.com/snippet/typeorm-using-like-operator/
 
@@ -35,14 +35,12 @@ Here's an example of how you could create an API endpoint using GraphQL and Type
 
 1.First, you'll need to install the necessary packages: graphql, apollo-server, and type-graphql. You can do this by running the following command:
 
-Copy code
 ```
 npm install graphql apollo-server type-graphql
 ```
 
 2.Create a schema.ts file where you'll define your GraphQL schema. Here's an example of how you could define a Product type and a Query type that has a products field that takes a name argument:
 
-Copy code
 ```ts
 import { gql, buildSchema } from 'type-graphql';
 
@@ -63,7 +61,6 @@ export default schema;
 
 3.Create a resolvers folder where you'll define your resolvers. Here's an example of how you could define a ProductResolver class with a products method that fetches products from the database based on the name argument:
 
-Copy code
 ```ts
 import { Query, Resolver } from 'type-graphql';
 import { Product } from './entity/Product';
@@ -81,7 +78,6 @@ export class ProductResolver {
 
 4.Create an index.ts file where you'll set up your Apollo server and define which schema and resolvers to use:
 
-Copy code
 ```ts
 import { ApolloServer } from 'apollo-server';
 import { createConnection } from 'typeorm';

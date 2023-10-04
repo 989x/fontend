@@ -58,10 +58,6 @@ Remember that when you export a component using `export default`, you can import
 
 
 
-</br>
-
-
-
 ## Ask
 
 I still don't understand much,
