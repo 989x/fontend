@@ -19,8 +19,9 @@
     - middleware
     - solve
 - [**B-Search**](https://github.com/SinsamutQ/fontend/tree/main/B-Search)
-    - NextGPT
-    - Tutorial
+    - develop
+    - tutorial
+    - upgrade
 - [**C-NextJS**](https://github.com/SinsamutQ/fontend/tree/main/C-NextJS)
     - get
     - image

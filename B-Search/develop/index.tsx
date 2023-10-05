@@ -1,5 +1,3 @@
-import axios from 'axios';
-
 export async function getServerSideProps({ query }: any) {
   try {
     const { propertySearch, propertyType, propertyStatus } = query;
@@ -8,13 +6,11 @@ export async function getServerSideProps({ query }: any) {
     if (propertySearch) {
       params.append("propertySearch", propertySearch);
     }
-
-    if (propertyType) {
-      params.append("propertyType", propertyType);
-    }
-
     if (propertyStatus) {
       params.append("propertyStatus", propertyStatus);
+    }
+    if (propertyType) {
+      params.append("propertyType", propertyType);
     }
 
     // Fetch estates with the specified search parameters from the API
@@ -23,11 +19,12 @@ export async function getServerSideProps({ query }: any) {
     );
     const estates = res.data.realEstates;
 
-    // Return the estates as props
-    return { props: { estates } };
+    // Pass the propertySearch value to the ShowMarket component
+    return { props: { estates, propertySearch: propertySearch || null } };
   } catch (error) {
     // Handle any errors that occur during the fetch
     console.error(error);
-    return { props: { estates: [] } };
+    return { props: { estates: [], propertySearch: null } };
   }
 }
+  

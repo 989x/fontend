@@ -1,37 +1,24 @@
 import Image from "next/image";
-import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
+import { useState, useEffect } from "react";
+
+const propertyTypeMap = [
+  { name: "Property Type", value: "" },
+  { name: "Land", value: "Land" },
+  { name: "Home", value: "Home" },
+];
+
+const propertyStatusMap = [
+  { name: "Rent & Sale", value: "" },
+  { name: "For Rent", value: "Rent" },
+  { name: "For Sale", value: "Sale" },
+];
 
 const SearchEstatePage = ({ defaultSearch }: { defaultSearch: string }) => {
-  const propertyTypeMap = [
-    { name: "Property Type", value: "" },
-    { name: "Land", value: "Land" },
-    { name: "Home", value: "Home" },
-  ];
-
-  const propertyStatusMap = [
-    { name: "Rent & Sale", value: "" },
-    { name: "For Rent", value: "Rent" },
-    { name: "For Sale", value: "Sale" },
-  ];
-
-  const minPrice = [
-    { name: "Min Price", value: "all" },
-    { name: "฿5,000", value: "5,000" },
-    { name: "฿10,000", value: "10,000" },
-  ];
-
-  const MaxPrice = [
-    { name: "Max Price", value: "all" },
-    { name: "฿5,000", value: "5,000" },
-    { name: "Any Price", value: "all" },
-  ];
-
-  const [propertySearch, setPropertySearch] = useState(defaultSearch || "");
-  const [propertyType, setPropertyType] = useState("");
-  const [propertyStatus, setPropertyStatus] = useState("");
-
   const router = useRouter();
+  const [propertySearch, setPropertySearch] = useState(defaultSearch || "");
+  const [propertyStatus, setPropertyStatus] = useState("");
+  const [propertyType, setPropertyType] = useState("");
 
   // config input value
   useEffect(() => {
@@ -42,8 +29,8 @@ const SearchEstatePage = ({ defaultSearch }: { defaultSearch: string }) => {
     setPropertySearch(e.target.value);
   };
 
-  const handleSubmit = (event: any) => {
-    event.preventDefault();
+  const handleSubmit = (e: any) => {
+    e.preventDefault();
     const query: any = {};
 
     if (propertySearch.trim() !== "") {
@@ -51,26 +38,6 @@ const SearchEstatePage = ({ defaultSearch }: { defaultSearch: string }) => {
     }
     if (propertyType.trim() !== "") {
       query.propertyType = propertyType;
-    }
-    if (propertyStatus.trim() !== "") {
-      query.propertyStatus = propertyStatus;
-    }
-
-    router.push({
-      pathname: "/properties",
-      query: query,
-    });
-  };
-
-  const handleTypeChange = (e: any) => {
-    setPropertyType(e.target.value);
-    const query: any = {};
-
-    if (propertySearch.trim() !== "") {
-      query.propertySearch = propertySearch;
-    }
-    if (e.target.value.trim() !== "") {
-      query.propertyType = e.target.value;
     }
     if (propertyStatus.trim() !== "") {
       query.propertyStatus = propertyStatus;
@@ -94,6 +61,26 @@ const SearchEstatePage = ({ defaultSearch }: { defaultSearch: string }) => {
     }
     if (e.target.value.trim() !== "") {
       query.propertyStatus = e.target.value;
+    }
+
+    router.push({
+      pathname: "/properties",
+      query: query,
+    });
+  };
+
+  const handleTypeChange = (e: any) => {
+    setPropertyType(e.target.value);
+    const query: any = {};
+
+    if (propertySearch.trim() !== "") {
+      query.propertySearch = propertySearch;
+    }
+    if (e.target.value.trim() !== "") {
+      query.propertyType = e.target.value;
+    }
+    if (propertyStatus.trim() !== "") {
+      query.propertyStatus = propertyStatus;
     }
 
     router.push({
@@ -150,22 +137,6 @@ const SearchEstatePage = ({ defaultSearch }: { defaultSearch: string }) => {
 
       <div className="hidden lg:flex overflow-x-auto mt-4 lg:mt-0 h-[43px]">
         <div className="gap-x-3 flex h-full font-medium">
-          {/* propertyType */}
-          <div className="flex flex-col">
-            <select
-              value={propertyType}
-              onChange={handleTypeChange}
-              id="status"
-              className="py-2 px-3 border rounded-md h-full"
-            >
-              {propertyTypeMap.map((item, index) => (
-                <option key={index} value={item.value}>
-                  {item.name}
-                </option>
-              ))}
-            </select>
-          </div>
-
           {/* propertyStatus */}
           <div className="flex flex-col">
             <select
@@ -181,32 +152,15 @@ const SearchEstatePage = ({ defaultSearch }: { defaultSearch: string }) => {
               ))}
             </select>
           </div>
-
-          {/* Min Price */}
+          {/* propertyType */}
           <div className="flex flex-col">
             <select
-              // value={trade}
-              // onChange={handleTrade}
+              value={propertyType}
+              onChange={handleTypeChange}
               id="status"
               className="py-2 px-3 border rounded-md h-full"
             >
-              {minPrice.map((item, index) => (
-                <option key={index} value={item.value}>
-                  {item.name}
-                </option>
-              ))}
-            </select>
-          </div>
-
-          {/* Max Price */}
-          <div className="flex flex-col">
-            <select
-              // value={type}
-              // onChange={handleTypeChange}
-              id="status"
-              className="py-2 px-3 border rounded-md h-full"
-            >
-              {MaxPrice.map((item, index) => (
+              {propertyTypeMap.map((item, index) => (
                 <option key={index} value={item.value}>
                   {item.name}
                 </option>
