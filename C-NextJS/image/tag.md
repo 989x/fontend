@@ -1,5 +1,6 @@
 ### NextJS Image component with fixed witdth and auto height
-- https://stackoverflow.com/questions/69230343/nextjs-image-component-with-fixed-witdth-and-auto-height
+
+stackoverflow: https://stackoverflow.com/questions/69230343/nextjs-image-component-with-fixed-witdth-and-auto-height
 
 From Next.js 13, the `next/image` component allows styling the underlying image directly using `style/className`. This means you can apply `width: 100%` and `height: auto` on the Image component directly.
 

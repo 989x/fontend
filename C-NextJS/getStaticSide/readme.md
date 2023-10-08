@@ -1,4 +1,4 @@
-### 🙎🏻‍♂️ 💬
+### Ask
 
 There is already an api ready. http://localhost:5000/estate/estate_id/${estate_id}
 
@@ -13,6 +13,6 @@ To connect to the API using NextJS, you can use the `getStaticProps` function in
 
 Here's an example implementation:
 
-<getStatic.tsx/>
+<getStatic.tsx />
 
 With this implementation, you should be able to access your property page at `http://localhost:3000/property/${estate_id}` and have it render the appropriate property data fetched from your API.

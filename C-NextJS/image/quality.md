@@ -1,5 +1,6 @@
 ### Lower quality images in Next.js "Image" vs. normal "img" tag
-- https://stackoverflow.com/questions/73673403/lower-quality-images-in-next-js-image-vs-normal-img-tag
+
+stackoverflow: https://stackoverflow.com/questions/73673403/lower-quality-images-in-next-js-image-vs-normal-img-tag
 
 Next.js creates versions of your image on run time and serves the apt sized image to render. 
 

@@ -1,5 +1,5 @@
-aimport { GetStaticProps, GetStaticPaths } from 'next';
 import { useRouter } from 'next/router';
+import { GetStaticProps, GetStaticPaths } from 'next';
 
 interface Estate {
   // Define the shape of your Estate object here

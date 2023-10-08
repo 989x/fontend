@@ -1,5 +1,6 @@
 ### How to set the next/image component to 100% height
-- https://stackoverflow.com/questions/65169431/how-to-set-the-next-image-component-to-100-height
+
+stackoverflow: https://stackoverflow.com/questions/65169431/how-to-set-the-next-image-component-to-100-height
 
 `In 2023`, every above solution is deprecated,
 
