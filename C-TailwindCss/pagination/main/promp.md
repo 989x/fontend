@@ -1,4 +1,4 @@
-### 🙎🏻‍♂️ 💬
+### Ask
 
 want to create paginate, create it at file Pagination.jsx for scrolling posts received from api
 
@@ -148,8 +148,9 @@ export async function getServerSideProps({ query }: any) {
 
 
 
+<br/>
 
-### 🙎🏻‍♂️ 💬
+### Ask
 
 create Pagination in file Pagination.tsx, 
 Must be consistent with MarketPlace files.
@@ -242,7 +243,9 @@ I hope this helps!
 
 
 
-### 🙎🏻‍♂️ 💬
+<br/>
+
+### Ask
 
 The code can function as intended.
 But I want the pagination in  to look like this:
@@ -362,7 +365,9 @@ Otherwise, it shows the first page, followed
 
 
 
-### 🙎🏻‍♂️ 💬
+<br/>
+
+### Ask
 
 The code is almost correct but has a few problems.
 When pressing 1 or the beginning of the index '...' does not disappear, when pressing the next digit '...' is added duplicately.
@@ -371,6 +376,6 @@ When pressing 1 or the beginning of the index '...' does not disappear, when pre
 
 I see, the issues you mentioned are related to the condition for rendering the "..." dots. Here's an updated version of the `Pagination` component that should solve those problems:
 
-<version-2/v.2-tailwind.tsx/>
+<Pagination-tailwind.tsx />
 
 This version of the component should properly render the "..." dots based on the position of the current page and the total number of pages. Additionally, it includes some minor improvements like bolding the current page number and using a function instead of an inline arrow function for the click handler.
