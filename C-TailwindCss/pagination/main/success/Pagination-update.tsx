@@ -4,7 +4,7 @@ interface Props {
   onPageChange: (page: number) => void;
 }
 
-const Pagination: React.FC<Props> = ({ pages, currentPage, onPageChange }) => {
+const Pagination = ({ pages, currentPage, onPageChange }: Props) => {
   const pageNumbers = [];
 
   for (let i = 1; i <= pages; i++) {
@@ -13,8 +13,22 @@ const Pagination: React.FC<Props> = ({ pages, currentPage, onPageChange }) => {
 
   const renderDotsStart = currentPage > 3 && pages > 5;
   const renderDotsEnd = pages - currentPage > 2 && pages > 5;
-  const dotsStart = <span className="inline-flex h-10 w-10 items-center justify-center text-gray-600">...</span>;
-  const dotsEnd = <span className="inline-flex h-10 w-10 items-center justify-center text-gray-600">...</span>;
+  const dotsStart = (
+    <span
+      className="inline-flex h-10 w-10 items-center justify-center text-gray-600"
+      key={"dotsStart"}
+    >
+      ...
+    </span>
+  );
+  const dotsEnd = (
+    <span
+      className="inline-flex h-10 w-10 items-center justify-center text-gray-600"
+      key={"dotsEnd"}
+    >
+      ...
+    </span>
+  );
 
   const handleClick = (page: number) => {
     onPageChange(page);
@@ -43,21 +57,30 @@ const Pagination: React.FC<Props> = ({ pages, currentPage, onPageChange }) => {
       {pageNumbers.map((page) => {
         if (page === currentPage) {
           return (
-            // <span className="block h-10 w-10 rounded-lg border-blue-600 bg-blue-600 text-center p-1 leading-8 text-white" key={page}>
-            <span className="h-10 w-10 rounded-full flex items-center text-white border-white border-[1.5px] bg-black justify-center px-2 mt-[1px]" key={page}>
+            <span 
+              className="h-10 w-10 rounded-full flex items-center text-white border-white border-[1.5px] bg-black justify-center px-2 mt-[1px]" 
+              key={page}
+            >
               {page}
             </span>
           );
         } else if (page === 1) {
           return (
-            // <button className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-gray-200 text-gray-600" key={page} onClick={() => handleClick(page)}>
-            <button className="inline-flex h-10 w-10 items-center justify-center text-gray-600" key={page} onClick={() => handleClick(page)}>
+            <button 
+              className="inline-flex h-10 w-10 items-center justify-center text-gray-600" 
+              key={page} 
+              onClick={() => handleClick(page)}
+            >
               {page}
             </button>
           );
         } else if (page === pages) {
           return (
-            <button className="inline-flex h-10 w-10 items-center justify-center text-gray-600" key={page} onClick={() => handleClick(page)}>
+            <button 
+              className="inline-flex h-10 w-10 items-center justify-center text-gray-600" 
+              key={page} 
+              onClick={() => handleClick(page)}
+            >
               {page}
             </button>
           );
@@ -67,7 +90,11 @@ const Pagination: React.FC<Props> = ({ pages, currentPage, onPageChange }) => {
           (page === pages - 1 && currentPage === pages)
         ) {
           return (
-            <button className="inline-flex h-10 w-10 items-center justify-center text-gray-600" key={page} onClick={() => handleClick(page)}>
+            <button 
+              className="inline-flex h-10 w-10 items-center justify-center text-gray-600" 
+              key={page} 
+              onClick={() => handleClick(page)}
+            >
               {page}
             </button>
           );
@@ -81,7 +108,10 @@ const Pagination: React.FC<Props> = ({ pages, currentPage, onPageChange }) => {
       })}
 
       {currentPage < pages && (
-        <button className="inline-flex h-10 w-10 items-center justify-center text-gray-600" onClick={() => handleClick(currentPage + 1)}>
+        <button 
+          className="inline-flex h-10 w-10 items-center justify-center text-gray-600" 
+          onClick={() => handleClick(currentPage + 1)}
+        >
           <span className="sr-only">Next Page</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
