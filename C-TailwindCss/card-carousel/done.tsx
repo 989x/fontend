@@ -50,6 +50,11 @@ const CardProperty = ({ data }: any) => {
     )
   );
 
+  // Function to disable links
+  const disableLink = (event: any) => {
+    event.preventDefault();
+  };
+
   return (
     <div className="w-full" title={data.desc.title}>
       {/* <Link href={`/property/${data.head.estateID}`}> */}
@@ -85,6 +90,7 @@ const CardProperty = ({ data }: any) => {
                 }`}
                 onClick={handlePrev}
                 disabled={isAtFirstImage}
+                onClickCapture={disableLink} // Disable link click
               >
                 prev
               </button>
@@ -94,6 +100,7 @@ const CardProperty = ({ data }: any) => {
                 }`}
                 onClick={handleNext}
                 disabled={isAtLastImage}
+                onClickCapture={disableLink} // Disable link click
               >
                 next
               </button>
