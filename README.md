@@ -29,6 +29,7 @@
     - solve
     - syntax
 - [**C-Tailwindcss**](https://github.com/SinsamutQ/fontend/tree/main/C-Tailwind+css)
+    - card-carousel
     - modal-img
     - pagination
     - sliderContainer
