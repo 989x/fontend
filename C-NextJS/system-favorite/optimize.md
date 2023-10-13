@@ -99,7 +99,6 @@ Optimizing code often depends on specific use cases and performance bottlenecks.
 Key points of optimization:
 
 1. Simplified the logic for checking if a property is in favorites using `isPropertyFavorite`.
-2. Removed unnecessary array functions when checking for supporter types.
-3. Made the code cleaner and easier to read.
+2. Made the code cleaner and easier to read.
 
 Remember that in terms of performance, the critical factors would be how frequently this component is rendered and any potential bottlenecks related to data fetching, image loading, or other aspects that might affect the user experience. These optimizations are more about code readability and organization.

@@ -11,13 +11,9 @@ const CardProperty = ({ data, userData, favorites }: any) => {
   const currentDate = new Date();
   const timeDifference = currentDate.getTime() - updatedAt.getTime();
   const daysDifference = timeDifference / (1000 * 3600 * 24);
-  // const isSupporter =
-  //   supportedTypeMap.some((sub) => data.user?.subs?.type.includes(sub.value)) ||
-  //   supportedTypeMap.some((sub) => userData?.subs?.type.includes(sub.value));
-  const isSupporter = [
-    data.user?.subs?.type,
-    userData?.subs?.type,
-  ].some((sub) => supportedTypeMap.includes(sub));
+  const isSupporter =
+    supportedTypeMap.some((sub) => data.user?.subs?.type.includes(sub.value)) ||
+    supportedTypeMap.some((sub) => userData?.subs?.type.includes(sub.value));
 
   const isPropertyFavorite = favorites?.includes(data._id);
   const [isFavorite, setIsFavorite] = useState(false);
