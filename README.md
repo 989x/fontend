@@ -23,11 +23,13 @@
     - tutorial
     - upgrade
 - [**C-NextJS**](https://github.com/SinsamutQ/fontend/tree/main/C-NextJS)
-    - get
+    - getServerSide
+    - getStaticSide
     - image
-    - router-refresh
+    - router
     - solve
     - syntax
+    - system-favorite
 - [**C-Tailwindcss**](https://github.com/SinsamutQ/fontend/tree/main/C-Tailwind+css)
     - card-carousel
     - modal-img
