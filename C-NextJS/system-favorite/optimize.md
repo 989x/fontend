@@ -1,6 +1,8 @@
 > using <card-dev.tsx /> and <index.tsx />
 
-## Ask 
+## Way 1
+
+### Ask 
 
 The code in CardProperty works correctly.
 But encountered problems with slowness. 
@@ -26,7 +28,7 @@ const CardProperty = ({ data, userData, favorites }: any) => {
 };
 ```
 
-## ChatGPT
+### ChatGPT
 
 Yes, the `useEffect` in the `CardProperty` component will be executed for each instance of the component on the page. In your case, if the `CardProperty` component is rendered 12 times on one page, the `useEffect` hook will be called 12 times, once for each instance.
 
@@ -40,7 +42,7 @@ However, if the slowness you are experiencing is related to the number of API re
 
 ### 2. Memoization:
 
-- If favorites is a large array and doesn't change often, consider memoizing it using the useMemo hook to avoid unnecessary re-renders.
+- If `favorites` is a large array and doesn't change often, consider memoizing it using the `useMemo` hook to avoid unnecessary re-renders.
 
 ```jsx
 const CardProperty = ({ data, userData, favorites }: any) => {
@@ -56,9 +58,9 @@ const CardProperty = ({ data, userData, favorites }: any) => {
 };
 ```
 
-### 3. Optimize includes Check:
+### 3. Optimize `includes` Check:
 
-- If the favorites array is very large, consider using a more efficient data structure for checking whether an element is present. For example, you could convert favorites into a Set and use the has method for faster lookups.
+- If the `favorites` array is very large, consider using a more efficient data structure for checking whether an element is present. For example, you could convert `favorites` into a Set and use the `has` method for faster lookups.
 
 ```jsx
 const CardProperty = ({ data, userData, favorites }: any) => {
@@ -77,3 +79,27 @@ const CardProperty = ({ data, userData, favorites }: any) => {
 ```
 
 These optimizations can help improve performance, especially when dealing with a large number of instances of the `CardProperty` component on a single page.
+
+
+
+## Way 2
+
+### Ask
+
+optimize code in CardProperty please 
+
+<card-dev.tsx />
+
+### ChatGPT
+
+Optimizing code often depends on specific use cases and performance bottlenecks. In your `CardProperty` component, there isn't much room for optimization regarding code structure, as it seems well-organized. However, you can make some improvements for readability and potential minor performance enhancements. Here's an optimized version of your component:
+
+<card-dev.tsx />
+
+Key points of optimization:
+
+1. Simplified the logic for checking if a property is in favorites using `isPropertyFavorite`.
+2. Removed unnecessary array functions when checking for supporter types.
+3. Made the code cleaner and easier to read.
+
+Remember that in terms of performance, the critical factors would be how frequently this component is rendered and any potential bottlenecks related to data fetching, image loading, or other aspects that might affect the user experience. These optimizations are more about code readability and organization.

@@ -11,20 +11,29 @@ const CardProperty = ({ data, userData, favorites }: any) => {
   const currentDate = new Date();
   const timeDifference = currentDate.getTime() - updatedAt.getTime();
   const daysDifference = timeDifference / (1000 * 3600 * 24);
-  const isSupporter =
-    supportedTypeMap.some((sub) => data.user?.subs?.type.includes(sub.value)) ||
-    supportedTypeMap.some((sub) => userData?.subs?.type.includes(sub.value));
+  // const isSupporter =
+  //   supportedTypeMap.some((sub) => data.user?.subs?.type.includes(sub.value)) ||
+  //   supportedTypeMap.some((sub) => userData?.subs?.type.includes(sub.value));
+  const isSupporter = [
+    data.user?.subs?.type,
+    userData?.subs?.type,
+  ].some((sub) => supportedTypeMap.includes(sub));
+
+  const isPropertyFavorite = favorites?.includes(data._id);
+  const [isFavorite, setIsFavorite] = useState(false);
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [isFavorite, setIsFavorite] = useState(false);
   
   // ________________________________________ favorites 
 
+  // useEffect(() => {
+  //   // Check if the property is in the favorites array
+  //   const isPropertyFavorite = favorites?.includes(data._id);
+  //   setIsFavorite(isPropertyFavorite);
+  // }, [data._id, favorites]);
   useEffect(() => {
-    // Check if the property is in the favorites array
-    const isPropertyFavorite = favorites?.includes(data._id);
     setIsFavorite(isPropertyFavorite);
-  }, [data._id, favorites]);
+  }, [isPropertyFavorite]);
   
   const toggleFavorite = async () => {
     try {
