@@ -3,11 +3,11 @@ import { useState, useEffect } from "react";
 import { useDictionary } from "@/lib/dictionary";
 
 const SearchBlogs = ({ defaultSearch }: { defaultSearch: string }) => {
+  const t = useDictionary();
   const router = useRouter();
   const [searchBlog, setSearchBlog] = useState("");
   const [isSearching, setIsSearching] = useState(false); // New state to track search status
   const [previousSearch, setPreviousSearch] = useState(""); // New state to store the previous search value
-  const t = useDictionary();
 
   useEffect(() => {
     setSearchBlog(defaultSearch || "");
@@ -16,7 +16,10 @@ const SearchBlogs = ({ defaultSearch }: { defaultSearch: string }) => {
   const handleSubmit = async (event: any) => {
     event.preventDefault();
 
-    if (isSearching || searchBlog.trim() === previousSearch) {
+    // Limit the number of search words to 80 characters
+    const trimmedSearch = searchBlog.trim().slice(0, 80);
+
+    if (isSearching || trimmedSearch === previousSearch) {
       return; // Prevent multiple simultaneous requests and unnecessary requests
     }
 
@@ -24,8 +27,8 @@ const SearchBlogs = ({ defaultSearch }: { defaultSearch: string }) => {
 
     const query: any = {};
 
-    if (searchBlog.trim() !== "") {
-      query.searchBlog = searchBlog;
+    if (trimmedSearch !== "") {
+      query.searchBlog = trimmedSearch;
     }
 
     try {
@@ -33,7 +36,7 @@ const SearchBlogs = ({ defaultSearch }: { defaultSearch: string }) => {
         pathname: "blogs",
         query: query,
       });
-      setPreviousSearch(searchBlog.trim()); // Update the previous search value after a successful search
+      setPreviousSearch(trimmedSearch); // Update the previous search value after a successful search
     } finally {
       setIsSearching(false);
     }
@@ -76,7 +79,7 @@ const SearchBlogs = ({ defaultSearch }: { defaultSearch: string }) => {
                   d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
                 ></path>
               </svg>
-            )} 
+            )}
           </button>
         </form>
       </div>
