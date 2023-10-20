@@ -7,8 +7,9 @@
 - [**A-Secuing**](https://github.com/SinsamutQ/fontend/tree/main/A-Secuing)
     - ...
 - [**A-Optimize**](https://github.com/SinsamutQ/fontend/tree/main/A-Optimize)
-    - useEffect-fetchData
-    - useRef-isMounted
+    - localStorage
+    - useEffect
+    - useRef
 - [**B-Lib**](https://github.com/SinsamutQ/fontend/tree/main/B-Lib)
     - breadcrumbs
     - dropdownMenu
