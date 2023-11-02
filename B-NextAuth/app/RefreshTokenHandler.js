@@ -1,5 +1,5 @@
-import { useSession } from "next-auth/react";
 import { useEffect } from "react";
+import { useSession } from "next-auth/react";
 
 // const RefreshTokenHandler = (props) => {
 //   const { data: session } = useSession();
@@ -7,7 +7,7 @@ import { useEffect } from "react";
 //   useEffect(() => {
 //     if (!!session) {
 //       // We did set the token to be ready to refresh after 23 hours, here we set interval of 23 hours 30 minutes.
-//       const timeRemaining = Math.round((((session.accessTokenExpiry - 30 * 60 * 1000) - Date.now()) / 1000));
+//       const timeRemaining = Math.round((((session.expires - 30 * 60 * 1000) - Date.now()) / 1000));
 
 //       // Here we set interval of 10 seconds.
 //       // const timeRemaining = Math.round(((session.expires - 10 * 1000) - Date.now()) / 1000);
@@ -26,7 +26,7 @@ const RefreshTokenHandler = ({ setInterval }) => {
 
   useEffect(() => {
     if (!!session) {
-      const timeRemaining = Math.round(((session.accessTokenExpiry - 30 * 60 * 1000) - Date.now()) / 1000);
+      const timeRemaining = Math.round(((session.expires - 30 * 60 * 1000) - Date.now()) / 1000);
       setInterval(timeRemaining > 0 ? timeRemaining : 0);
     }
   }, [session, setInterval]);
