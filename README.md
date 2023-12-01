@@ -31,6 +31,7 @@
     - getServerSide
     - getStaticSide
     - image
+    - locales
     - router
     - solve
     - syntax
