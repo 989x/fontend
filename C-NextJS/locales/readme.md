@@ -1,7 +1,7 @@
 ### Ask
 
 using nextJS typescript, create file lib/dictionary.ts
-
+```ts
 import { useRouter } from "next/router";
 import enUS from "@/locales/en-us";
 import thTH from "@/locales/th-th";
@@ -19,22 +19,25 @@ export function useDictionary(): any {
       return enUS; 
   }
 }
+```
 
 locales/en-us.js
-
+```js
 export default {
   txt_NavDiscover: "Discover",
   txt_NavHosting: "Hosting",
   ...
 };
+```
 
 locales/th-th.js
-
+```js
 export default {
   txt_NavDiscover: "ค้นพบ",
   txt_NavHosting: "โฮสติ้ง",
   ...
 };
+```
 
 Found a problem in each file. There are hundreds of lines of code.
 It makes the files look unattractive and too many.
