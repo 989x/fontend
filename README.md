@@ -40,7 +40,7 @@
     - syntax
     - system-favorite
     - system-share
-- [**C-Tailwindcss**](https://github.com/SinsamutQ/fontend/tree/main/C-Tailwind+css)
+- [**C-Tailwind**](https://github.com/SinsamutQ/fontend/tree/main/C-Tailwind)
     - card-carousel
     - modal-img
     - pagination
