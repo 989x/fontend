@@ -48,15 +48,15 @@
     - sticky
     - tailwind
 - [**D-GraphQL**](https://github.com/SinsamutQ/fontend/tree/main/D-GraphQL)
-    - ChatGPT-Graph-api
+    - apollo-server
+    - graph-api
         - graphql-inputs
         - graphql-like
         - mongodb
         - route
-    - GraphQL
+    - search
         - filter-fields-mongodb
         - search-filter
-    - NextJS-apollo-server
     - Tanstack
 
 ### _________________________ 目录 - 般的 _________________________
