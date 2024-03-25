@@ -31,7 +31,10 @@ Welcome to the Frontend Development Repository! Explore the various frontend-rel
     - readingTime
     - shuffled
 
-### NextAuth Integration
+### Providers Integration
+
+- [**B-Azure**](https://github.com/989x/fontend/tree/main/B-Azure)
+    - ...
 
 - [**B-NextAuth**](https://github.com/989x/fontend/tree/main/B-NextAuth)
     - app
