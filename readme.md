@@ -6,76 +6,16 @@ Welcome to the Frontend Development Repository! Explore the various frontend-rel
 
 ## Table of Contents
 
-### Security and Performance Optimization
+### Framework Exploration
 
-- [**A-Secuing**](https://github.com/989x/fontend/tree/main/A-Secuing)
-    - ...
-- [**A-Optimize**](https://github.com/989x/fontend/tree/main/A-Optimize)
-    - localStorage
-    - useEffect
-    - useRef
-
-### SEO Strategies
-
-- [**A-Seo**](https://github.com/989x/fontend/tree/main/A-Seo)
-    - example
-    - format
-
-### Utility Libraries
-
-- [**B-Lib**](https://github.com/989x/fontend/tree/main/B-Lib)
-    - breadcrumbs
-    - dropdownMenu
-    - fetcher
-    - formatDate
-    - readingTime
-    - shuffled
-
-### Providers Integration
-
-- [**B-Azure**](https://github.com/989x/fontend/tree/main/B-Azure)
-    - ...
-
-- [**B-NextAuth**](https://github.com/989x/fontend/tree/main/B-NextAuth)
-    - app
-    - axios
-    - example
-    - middleware
-    - solve
-
-### Search Implementation
-
-- [**B-Search**](https://github.com/989x/fontend/tree/main/B-Search)
-    - develop
-    - tutorial
-    - upgrade
-
-### Next.js Framework Exploration
-
-- [**C-NextJS**](https://github.com/989x/fontend/tree/main/C-NextJS)
-    - getServerSide
-    - getStaticSide
-    - image
-    - locales
-    - router
-    - solve
-    - syntax
-    - system-favorite
-    - system-share
-
-### Tailwind CSS Styling
-
-- [**C-Tailwind**](https://github.com/989x/fontend/tree/main/C-Tailwind)
-    - card-carousel
-    - modal-img
-    - pagination
-    - sliderContainer
-    - sticky
-    - tailwind
+- [**Framework**](https://github.com/989x/fontend/tree/main/framework)
+    - next
+    - nextauth
+    - react
 
 ### GraphQL Integration
 
-- [**D-GraphQL**](https://github.com/989x/fontend/tree/main/D-GraphQL)
+- [**GraphQL**](https://github.com/989x/fontend/tree/main/graphql)
     - apollo-server
     - graph-api
         - graphql-inputs
@@ -87,9 +27,44 @@ Welcome to the Frontend Development Repository! Explore the various frontend-rel
         - search-filter
     - Tanstack
 
-### Additional Resources
+### Performance Optimization
 
-- [**D-More**](https://github.com/989x/fontend/tree/main/D-More)
+- [**Optimize**](https://github.com/989x/fontend/tree/main/optimize)
+    - localStorage
+    - useEffect
+    - useRef
+
+### Search Implementation
+
+- [**Search**](https://github.com/989x/fontend/tree/main/search)
+    - develop
+    - tutorial
+    - upgrade
+
+### SEO Strategies
+
+- [**Seo**](https://github.com/989x/fontend/tree/main/seo)
+    - example
+    - format
+
+### Utility Libraries
+
+- [**Shared**](https://github.com/989x/fontend/tree/main/shared)
+    - breadcrumbs
+    - dropdownMenu
+    - fetcher
+    - formatDate
     - function
     - Lightbox2
-    
+    - readingTime
+    - shuffled
+
+### Tailwind CSS Styling
+
+- [**Tailwind**](https://github.com/989x/fontend/tree/main/tailwind)
+    - card-carousel
+    - modal-img
+    - pagination
+    - sliderContainer
+    - sticky
+    - tailwind
