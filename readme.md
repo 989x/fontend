@@ -41,12 +41,6 @@ Welcome to the Frontend Development Repository! Explore the various frontend-rel
     - tutorial
     - upgrade
 
-### SEO Strategies
-
-- [**Seo**](https://github.com/989x/fontend/tree/main/seo)
-    - example
-    - format
-
 ### Utility Libraries
 
 - [**Shared**](https://github.com/989x/fontend/tree/main/shared)
