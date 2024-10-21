@@ -51,7 +51,6 @@ Welcome to the Frontend Development Repository! Explore the various frontend-rel
 
 - [**Shared**](https://github.com/989x/fontend/tree/main/shared)
     - breadcrumbs
-    - dropdownMenu
     - fetcher
     - formatDate
     - function
